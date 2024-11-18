@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scan Food - CalTrack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="scanning-container">
+        <header class="header">
+            <div class="logo"><a href="index.html">CalTrack</a></div>
+            <a href="login.html" class="btn">Login</a>
+        </header>
+        <main class="scanning-main">
+            <div class="scanning-content">
+                <h1>Scan Your Meal</h1>
+                <p>
+                    Point your camera at your meal, and let our AI analyze its nutritional value in real-time.
+                </p>
+                <div class="camera-container">
+                    <video id="camera" autoplay playsinline></video>
+                    <button class="capture-btn" id="capture-btn">Capture & Analyze</button>
+                </div>
+                <div class="output-box">
+                    <h2>Scanned Details</h2>
+                    <p id="calorie-output">Calories: <span>--</span></p>
+                    <p id="protein-output">Protein: <span>--</span></p>
+                    <p id="fat-output">Fat: <span>--</span></p>
+                </div>
+                <p class="note">Ensure the entire meal is visible within the camera frame for accurate analysis.</p>
+            </div>
+        </main>
+        <footer class="footer">
+            <p>© 2024 CalTrack. All Rights Reserved.</p>
+        </footer>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
