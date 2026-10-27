@@ -1,2 +1,5 @@
 .env
 node_modules/
+model/.venv/
+model/*.pt
+__pycache__/
