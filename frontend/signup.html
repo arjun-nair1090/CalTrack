@@ -2,37 +2,27 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Signup - CalTrack</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Create an account · CalTrack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <div class="signup-container">
-        <div class="signup-left">
-            <h1 class="signup-heading">Join CalTrack Today!</h1>
-            <p class="signup-text">Create an account to start tracking your meals and achieving your health goals.</p>
-        </div>
-        <div class="signup-right">
-            <h2>Create Your Account</h2>
-            <form class="signup-form">
-                <div class="input-group">
-                    <label for="name">Full Name</label>
-                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-                </div>
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-                <div class="input-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Create a password" required>
-                </div>
-                <button type="submit" class="signup-btn">Sign Up</button>
-                <p class="login-text">Already have an account? <a href="login.html">Login here</a></p>
-            </form>
-        </div>
-    </div>
-    <script src="scripts/signup.js"></script>
+    <header class="top"><a class="wordmark" href="/">CalTrack</a></header>
+    <main class="auth">
+        <form class="label" data-endpoint="/api/auth/signup">
+            <h2>Create an account</h2>
+            <div class="rule"></div>
+            <label class="field"><span>Name</span><input name="name" autocomplete="name" required></label>
+            <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" required></label>
+            <label class="field"><span>Password</span><input type="password" name="password" autocomplete="new-password" minlength="8" required></label>
+            <button class="go" type="submit">Create account</button>
+            <p class="error" role="alert"></p>
+        </form>
+        <p class="swap">Already have one? <a href="login">Log in</a></p>
+    </main>
+    <script src="auth.js"></script>
 </body>
 </html>

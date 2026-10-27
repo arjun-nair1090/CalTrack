@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Your diary · CalTrack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body>
+    <header class="top">
+        <a class="wordmark" href="/">CalTrack</a>
+        <nav><span id="who"></span><button class="linkish" id="logout" type="button">Log out</button></nav>
+    </header>
+
+    <main class="desk">
+        <section class="panel label" aria-labelledby="add-title">
+            <h2 id="add-title">Add a meal</h2>
+            <div class="rule"></div>
+
+            <label class="drop" id="drop">
+                <input type="file" id="photo" accept="image/*">
+                <strong>Take or choose a photo</strong>
+                <span>or drop one here</span>
+            </label>
+            <p class="note" id="status" role="status"></p>
+
+            <ul class="guesses" id="guesses"></ul>
+
+            <label class="field">
+                <span>Or search all 101 dishes</span>
+                <input id="search" list="food-names" placeholder="e.g. pad thai" autocomplete="off">
+                <datalist id="food-names"></datalist>
+            </label>
+
+            <div id="chosen" hidden>
+                <div class="rule"></div>
+                <div class="row"><span>Dish</span><b id="dish"></b></div>
+                <div class="portion">
+                    <label class="field"><span>Portion</span><select id="portion"></select></label>
+                    <label class="field"><span>Grams</span><input id="grams" type="number" min="1" max="3000" inputmode="numeric"></label>
+                </div>
+                <div class="rule"></div>
+                <div class="calories"><span>Calories</span><span class="big" id="kcal"></span></div>
+                <div class="rule mid"></div>
+                <div class="row"><b>Total fat</b><span id="fat"></span></div>
+                <div class="row"><b>Total carbohydrate</b><span id="carbs"></span></div>
+                <div class="row"><b>Protein</b><span id="protein"></span></div>
+                <div class="rule mid"></div>
+                <p class="fine" id="source"></p>
+                <button class="go" id="add" type="button">Add to diary</button>
+                <p class="error" id="add-error" role="alert"></p>
+            </div>
+        </section>
+
+        <section class="panel diary" aria-labelledby="day-title">
+            <div class="daybar">
+                <button type="button" id="prev" aria-label="Previous day">‹</button>
+                <h1 id="day-title"></h1>
+                <button type="button" id="next" aria-label="Next day">›</button>
+            </div>
+            <div class="label">
+                <div class="title">Daily Totals</div>
+                <div class="rule"></div>
+                <div class="calories"><span>Calories</span><span class="big" id="day-kcal">0</span></div>
+                <div class="progress" id="progress"><i></i></div>
+                <div class="total-of" id="left"></div>
+                <div class="rule mid"></div>
+                <div id="meals"></div>
+                <div class="rule mid"></div>
+                <div class="row"><b>Total fat</b><span id="day-fat"></span></div>
+                <div class="row"><b>Total carbohydrate</b><span id="day-carbs"></span></div>
+                <div class="row"><b>Protein</b><span id="day-protein"></span></div>
+                <div class="rule"></div>
+                <label class="target">Daily target <input id="target" type="number" min="800" max="6000" step="50"> kcal</label>
+                <p class="error" id="target-error" role="alert"></p>
+            </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>

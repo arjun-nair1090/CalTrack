@@ -1,2 +1,7 @@
 .env
 node_modules/
+model/.venv/
+model/*.pt
+__pycache__/
+model/curve.json
+model/*.log

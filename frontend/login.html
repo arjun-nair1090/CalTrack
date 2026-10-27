@@ -2,41 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login - CalTrack</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Log in · CalTrack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <div class="login-container">
-        <div class="login-left">
-            <h1 class="login-heading">Welcome Back!</h1>
-            <p class="login-text">Login to your CalTrack account and keep tracking your meals easily.</p>
-            <img src="cthp.jpg" alt="Food Scanning" class="login-image">
-        </div>
-        <div class="login-right">
-            <h2>Login to CalTrack</h2>
-            <form id="login-form">
-                <div class="input-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" name="email" placeholder="Enter your email" required>
-                </div>
-                <div class="input-group">
-                    <label for="password">Password</label>
-                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
-                </div>
-                <button type="submit" class="login-btn">Login</button>
-                <p class="signup-text">Don't have an account? <a href="signup.html">Sign up here</a></p>
-            </form>
-        </div>
-    </div>
-    <script src="scripts/login.js"></script>
-    <script>
-        // Redirect to homepage on form submission
-        document.getElementById('login-form').addEventListener('submit', function (event) {
-            event.preventDefault(); // Prevent default form submission
-            window.location.href = "index.html"; // Redirect to the homepage
-        });
-    </script>
+    <header class="top"><a class="wordmark" href="/">CalTrack</a></header>
+    <main class="auth">
+        <form class="label" data-endpoint="/api/auth/login">
+            <h2>Log in</h2>
+            <div class="rule"></div>
+            <label class="field"><span>Email</span><input type="email" name="email" autocomplete="email" required></label>
+            <label class="field"><span>Password</span><input type="password" name="password" autocomplete="current-password" required></label>
+            <button class="go" type="submit">Log in</button>
+            <p class="error" role="alert"></p>
+        </form>
+        <p class="swap">New here? <a href="signup">Create an account</a></p>
+    </main>
+    <script src="auth.js"></script>
 </body>
 </html>

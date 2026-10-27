@@ -2,28 +2,55 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CalTrack - Track Your Meals</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CalTrack</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,400..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="app.css">
 </head>
 <body>
-    <main class="main">
-        <section class="content">
-            <h1 class="heading">Track Your Meals <br> With Effortless Precision</h1>
-            <p class="subheading">
-                Discover the future of calorie tracking. Snap a photo of your meal, and let our AI-powered tool deliver instant nutritional insights tailored to your health goals.
-            </p>
-            <a href="scanning.html" class="cta-btn">Start Scanning Now</a>
+    <header class="top">
+        <a class="wordmark" href="/">CalTrack</a>
+        <nav><a href="login">Log in</a></nav>
+    </header>
+
+    <main class="hero">
+        <section>
+            <h1>Photograph lunch. Get the label.</h1>
+            <p>CalTrack recognises 101 dishes from a photo, then looks up what’s in them in the USDA’s FoodData Central. You pick the portion, and it adds the calories, protein, carbs and fat to your day.</p>
+            <p>When a photo is ambiguous it shows its five best guesses and says it isn’t sure, so you choose instead of it guessing for you.</p>
+            <a class="cta" href="signup">Start a food diary</a>
         </section>
-        <section class="image-container">
-            <img src="cthpind.jpg" alt="Phone scanning a meal" class="main-image">
-        </section>
+
+        <aside class="label" aria-label="Example result for a hamburger">
+            <div class="title">Nutrition Facts</div>
+            <div class="row"><span>Recognised as</span><b>Hamburger</b></div>
+            <div class="row serving"><span>Serving size</span><span>1 hamburger (145 g)</span></div>
+            <div class="rule"></div>
+            <div class="calories"><span>Calories</span><span class="big">418</span></div>
+            <div class="rule mid"></div>
+            <div class="row"><b>Total fat</b><span>20.9 g</span></div>
+            <div class="row"><b>Total carbohydrate</b><span>30 g</span></div>
+            <div class="row"><b>Protein</b><span>25.4 g</span></div>
+            <div class="rule mid"></div>
+            <p class="fine">From USDA FoodData Central, “Hamburger, NFS” (FNDDS 2021–2023).</p>
+        </aside>
     </main>
-    <footer class="footer">
-        <p>© 2024 CalTrack. Empowering healthier lifestyles.</p>
-    </footer>
+
+    <section class="how">
+        <div>
+            <h3>It knows 101 dishes</h3>
+            <p>An EfficientNet-B2 trained on the Food-101 dataset, from apple pie to waffles. For anything else, search by name.</p>
+        </div>
+        <div>
+            <h3>The numbers have a source</h3>
+            <p>Every dish links to the USDA record its nutrition came from. Dishes blended from several records say so.</p>
+        </div>
+        <div>
+            <h3>Your photos aren’t kept</h3>
+            <p>A photo is classified in memory and discarded. Only the dish and portion go into your diary.</p>
+        </div>
+    </section>
 </body>
 </html>

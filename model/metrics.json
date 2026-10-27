@@ -1,0 +1,124 @@
+{
+ "testTop1": 0.8948,
+ "testTop5": 0.9829,
+ "testImages": 25250,
+ "bestEpoch": 12,
+ "curve": [
+  {
+   "epoch": 1,
+   "trainLoss": 2.8604,
+   "valTop1": 0.6789,
+   "valTop5": 0.8954
+  },
+  {
+   "epoch": 2,
+   "trainLoss": 2.0347,
+   "valTop1": 0.7415,
+   "valTop5": 0.9147
+  },
+  {
+   "epoch": 3,
+   "trainLoss": 1.8657,
+   "valTop1": 0.7721,
+   "valTop5": 0.929
+  },
+  {
+   "epoch": 4,
+   "trainLoss": 1.7563,
+   "valTop1": 0.7816,
+   "valTop5": 0.9385
+  },
+  {
+   "epoch": 5,
+   "trainLoss": 1.6707,
+   "valTop1": 0.7872,
+   "valTop5": 0.944
+  },
+  {
+   "epoch": 6,
+   "trainLoss": 1.5498,
+   "valTop1": 0.808,
+   "valTop5": 0.9485
+  },
+  {
+   "epoch": 7,
+   "trainLoss": 1.4451,
+   "valTop1": 0.8202,
+   "valTop5": 0.9488
+  },
+  {
+   "epoch": 8,
+   "trainLoss": 1.3479,
+   "valTop1": 0.8392,
+   "valTop5": 0.9604
+  },
+  {
+   "epoch": 9,
+   "trainLoss": 1.2896,
+   "valTop1": 0.8537,
+   "valTop5": 0.9583
+  },
+  {
+   "epoch": 10,
+   "trainLoss": 1.0979,
+   "valTop1": 0.8566,
+   "valTop5": 0.9591
+  },
+  {
+   "epoch": 11,
+   "trainLoss": 1.0312,
+   "valTop1": 0.8571,
+   "valTop5": 0.9591
+  },
+  {
+   "epoch": 12,
+   "trainLoss": 0.9941,
+   "valTop1": 0.8616,
+   "valTop5": 0.9591
+  }
+ ],
+ "hardest": [
+  {
+   "class": "steak",
+   "top1": 0.664
+  },
+  {
+   "class": "pork_chop",
+   "top1": 0.712
+  },
+  {
+   "class": "chocolate_mousse",
+   "top1": 0.72
+  },
+  {
+   "class": "apple_pie",
+   "top1": 0.732
+  },
+  {
+   "class": "foie_gras",
+   "top1": 0.748
+  }
+ ],
+ "easiest": [
+  {
+   "class": "deviled_eggs",
+   "top1": 0.976
+  },
+  {
+   "class": "pad_thai",
+   "top1": 0.976
+  },
+  {
+   "class": "spaghetti_bolognese",
+   "top1": 0.98
+  },
+  {
+   "class": "macarons",
+   "top1": 0.988
+  },
+  {
+   "class": "edamame",
+   "top1": 1.0
+  }
+ ]
+}

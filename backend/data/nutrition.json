@@ -1,0 +1,3641 @@
+{
+ "apple_pie": {
+  "name": "Apple pie",
+  "per100g": {
+   "kcal": 296.0,
+   "protein": 2.7,
+   "carbs": 37.5,
+   "fat": 15.3
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 150.0
+   },
+   {
+    "label": "1 surface inch",
+    "grams": 18.9
+   },
+   {
+    "label": "1 mini/small slice",
+    "grams": 75.0
+   },
+   {
+    "label": "1 individual pie",
+    "grams": 150.0
+   },
+   {
+    "label": "1 regular slice",
+    "grams": 150.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 250.0
+   },
+   {
+    "label": "1 large slice",
+    "grams": 250.0
+   },
+   {
+    "label": "1 regular pie (8-9\" dia)",
+    "grams": 1200.0
+   },
+   {
+    "label": "1 large pie (10\" dia plus)",
+    "grams": 2000.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 500.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707995,
+    "description": "Pie, apple",
+    "share": 1.0
+   }
+  ]
+ },
+ "baby_back_ribs": {
+  "name": "Baby back ribs",
+  "per100g": {
+   "kcal": 254.0,
+   "protein": 16.2,
+   "carbs": 12.1,
+   "fat": 15.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 105.0
+   },
+   {
+    "label": "1 oz yields",
+    "grams": 20.0
+   },
+   {
+    "label": "1 rib (yield after cooking, bone removed)",
+    "grams": 35.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705894,
+    "description": "Pork, ribs",
+    "share": 1.0
+   }
+  ]
+ },
+ "baklava": {
+  "name": "Baklava",
+  "per100g": {
+   "kcal": 440.0,
+   "protein": 6.6,
+   "carbs": 37.5,
+   "fat": 29.3
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 80.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 13.0
+   },
+   {
+    "label": "1 piece",
+    "grams": 80.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708044,
+    "description": "Baklava",
+    "share": 1.0
+   }
+  ]
+ },
+ "beef_carpaccio": {
+  "name": "Beef carpaccio",
+  "per100g": {
+   "kcal": 262.6,
+   "protein": 28.3,
+   "carbs": 0.7,
+   "fat": 16.3
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 90
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2705841,
+    "description": "Beef, steak, tenderloin",
+    "share": 0.85
+   },
+   {
+    "fdcId": 2710186,
+    "description": "Olive oil",
+    "share": 0.07
+   },
+   {
+    "fdcId": 2705730,
+    "description": "Cheese, Parmesan, hard",
+    "share": 0.08
+   }
+  ]
+ },
+ "beef_tartare": {
+  "name": "Beef tartare",
+  "per100g": {
+   "kcal": 209.2,
+   "protein": 29.0,
+   "carbs": 0.1,
+   "fat": 10.3
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 140
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2705841,
+    "description": "Beef, steak, tenderloin",
+    "share": 0.9
+   },
+   {
+    "fdcId": 2707172,
+    "description": "Egg, yolk only, raw",
+    "share": 0.1
+   }
+  ]
+ },
+ "beet_salad": {
+  "name": "Beet salad",
+  "per100g": {
+   "kcal": 135.5,
+   "protein": 4.3,
+   "carbs": 8.4,
+   "fat": 9.7
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 150
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2709770,
+    "description": "Beets, raw",
+    "share": 0.7
+   },
+   {
+    "fdcId": 2705714,
+    "description": "Cheese, Feta",
+    "share": 0.15
+   },
+   {
+    "fdcId": 2710195,
+    "description": "Salad dressing, NFS, for salads",
+    "share": 0.15
+   }
+  ]
+ },
+ "beignets": {
+  "name": "Beignets",
+  "per100g": {
+   "kcal": 417.0,
+   "protein": 5.5,
+   "carbs": 53.7,
+   "fat": 20.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 45.0
+   },
+   {
+    "label": "1 beignet",
+    "grams": 45.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708071,
+    "description": "Beignet",
+    "share": 1.0
+   }
+  ]
+ },
+ "bibimbap": {
+  "name": "Bibimbap",
+  "per100g": {
+   "kcal": 76.0,
+   "protein": 5.5,
+   "carbs": 8.1,
+   "fat": 2.4
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 121.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 162.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 324.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708950,
+    "description": "Bibimbap, Korean",
+    "share": 1.0
+   }
+  ]
+ },
+ "bread_pudding": {
+  "name": "Bread pudding",
+  "per100g": {
+   "kcal": 156.0,
+   "protein": 5.6,
+   "carbs": 23.5,
+   "fat": 4.9
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 100.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 14.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 200.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 400.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705680,
+    "description": "Pudding, bread",
+    "share": 1.0
+   }
+  ]
+ },
+ "breakfast_burrito": {
+  "name": "Breakfast burrito",
+  "per100g": {
+   "kcal": 249.0,
+   "protein": 10.9,
+   "carbs": 20.1,
+   "fat": 13.7
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 180.0
+   },
+   {
+    "label": "1 item, any size",
+    "grams": 180.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707343,
+    "description": "Egg burrito",
+    "share": 1.0
+   }
+  ]
+ },
+ "bruschetta": {
+  "name": "Bruschetta",
+  "per100g": {
+   "kcal": 171.0,
+   "protein": 4.3,
+   "carbs": 21.3,
+   "fat": 7.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 43.0
+   },
+   {
+    "label": "1 slice, snack-size",
+    "grams": 14.0
+   },
+   {
+    "label": "1 small or thin/very thin slice",
+    "grams": 32.0
+   },
+   {
+    "label": "1 slice",
+    "grams": 43.0
+   },
+   {
+    "label": "1 medium or regular slice",
+    "grams": 43.0
+   },
+   {
+    "label": "1 large or thick slice",
+    "grams": 59.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707652,
+    "description": "Bruschetta",
+    "share": 1.0
+   }
+  ]
+ },
+ "caesar_salad": {
+  "name": "Caesar salad",
+  "per100g": {
+   "kcal": 146.8,
+   "protein": 3.7,
+   "carbs": 6.9,
+   "fat": 11.6
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 200
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2709591,
+    "description": "Caesar salad, with romaine, no dressing",
+    "share": 0.85
+   },
+   {
+    "fdcId": 2710199,
+    "description": "Caesar dressing",
+    "share": 0.15
+   }
+  ]
+ },
+ "cannoli": {
+  "name": "Cannoli",
+  "per100g": {
+   "kcal": 264.0,
+   "protein": 4.8,
+   "carbs": 12.9,
+   "fat": 21.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 70.0
+   },
+   {
+    "label": "1 miniature cream puff",
+    "grams": 23.0
+   },
+   {
+    "label": "1 eclair (5\" x 2\" x 1-3/4\")",
+    "grams": 90.0
+   },
+   {
+    "label": "1 cream puff (3-1/2\" x 2\")",
+    "grams": 100.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708030,
+    "description": "Cream puff, eclair, custard or cream filled, not iced",
+    "share": 1.0
+   }
+  ]
+ },
+ "caprese_salad": {
+  "name": "Caprese salad",
+  "per100g": {
+   "kcal": 206.3,
+   "protein": 10.4,
+   "carbs": 3.9,
+   "fat": 16.7
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 180
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2709719,
+    "description": "Tomatoes, raw",
+    "share": 0.5
+   },
+   {
+    "fdcId": 2705722,
+    "description": "Cheese, Mozzarella, NFS",
+    "share": 0.42
+   },
+   {
+    "fdcId": 2710186,
+    "description": "Olive oil",
+    "share": 0.08
+   }
+  ]
+ },
+ "carrot_cake": {
+  "name": "Carrot cake",
+  "per100g": {
+   "kcal": 374.0,
+   "protein": 2.5,
+   "carbs": 51.8,
+   "fat": 17.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 200.0
+   },
+   {
+    "label": "1 cupcake, any size",
+    "grams": 90.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 120.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 200.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 240.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707859,
+    "description": "Cake or cupcake, carrot",
+    "share": 1.0
+   }
+  ]
+ },
+ "ceviche": {
+  "name": "Ceviche",
+  "per100g": {
+   "kcal": 63.0,
+   "protein": 10.5,
+   "carbs": 3.6,
+   "fat": 0.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 125.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 250.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 500.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706463,
+    "description": "Ceviche",
+    "share": 1.0
+   }
+  ]
+ },
+ "cheese_plate": {
+  "name": "Cheese plate",
+  "per100g": {
+   "kcal": 381.0,
+   "protein": 20.7,
+   "carbs": 4.3,
+   "fat": 31.3
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 21.0
+   },
+   {
+    "label": "1 cracker-size slice",
+    "grams": 9.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 17.3
+   },
+   {
+    "label": "1 slice",
+    "grams": 21.0
+   },
+   {
+    "label": "1 stick",
+    "grams": 28.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 113.0
+   },
+   {
+    "label": "1 cup, melted",
+    "grams": 244.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 226.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705704,
+    "description": "Cheese, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "cheesecake": {
+  "name": "Cheesecake",
+  "per100g": {
+   "kcal": 399.0,
+   "protein": 5.3,
+   "carbs": 34.8,
+   "fat": 26.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 175.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 175.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 180.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 360.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707861,
+    "description": "Cheesecake, plain",
+    "share": 1.0
+   }
+  ]
+ },
+ "chicken_curry": {
+  "name": "Chicken curry",
+  "per100g": {
+   "kcal": 107.0,
+   "protein": 6.5,
+   "carbs": 6.5,
+   "fat": 6.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 240.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 240.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 480.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706437,
+    "description": "Chicken curry",
+    "share": 1.0
+   }
+  ]
+ },
+ "chicken_quesadilla": {
+  "name": "Chicken quesadilla",
+  "per100g": {
+   "kcal": 287.0,
+   "protein": 14.4,
+   "carbs": 27.3,
+   "fat": 13.0
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 70.0
+   },
+   {
+    "label": "1 triangular piece",
+    "grams": 35.0
+   },
+   {
+    "label": "1 half circle",
+    "grams": 70.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 95.0
+   },
+   {
+    "label": "1 full circle",
+    "grams": 140.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 190.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708593,
+    "description": "Quesadilla, chicken",
+    "share": 1.0
+   }
+  ]
+ },
+ "chicken_wings": {
+  "name": "Chicken wings",
+  "per100g": {
+   "kcal": 267.0,
+   "protein": 17.0,
+   "carbs": 5.1,
+   "fat": 20.0
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 140.0
+   },
+   {
+    "label": "1 drummette",
+    "grams": 35.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706076,
+    "description": "Chicken \"wings\" with hot sauce, from other sources",
+    "share": 1.0
+   }
+  ]
+ },
+ "chocolate_cake": {
+  "name": "Chocolate cake",
+  "per100g": {
+   "kcal": 345.0,
+   "protein": 3.3,
+   "carbs": 52.2,
+   "fat": 15.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 175.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 6.8
+   },
+   {
+    "label": "1 miniature/bite size",
+    "grams": 30.0
+   },
+   {
+    "label": "1 regular cupcake",
+    "grams": 90.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 100.0
+   },
+   {
+    "label": "1 regular or small piece/slice, 1 layer cake",
+    "grams": 115.0
+   },
+   {
+    "label": "1 large piece/slice, 1 layer cake",
+    "grams": 170.0
+   },
+   {
+    "label": "1 regular or small piece/slice, 2+ layer cake",
+    "grams": 175.0
+   },
+   {
+    "label": "1 large piece/slice, 2+ layer cake",
+    "grams": 260.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 200.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707866,
+    "description": "Cake or cupcake, chocolate with chocolate icing, bakery",
+    "share": 1.0
+   }
+  ]
+ },
+ "chocolate_mousse": {
+  "name": "Chocolate mousse",
+  "per100g": {
+   "kcal": 212.0,
+   "protein": 4.2,
+   "carbs": 16.2,
+   "fat": 15.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 170.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 340.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705698,
+    "description": "Mousse",
+    "share": 1.0
+   }
+  ]
+ },
+ "churros": {
+  "name": "Churros",
+  "per100g": {
+   "kcal": 419.0,
+   "protein": 6.0,
+   "carbs": 48.9,
+   "fat": 22.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 45.0
+   },
+   {
+    "label": "1 miniature",
+    "grams": 15.0
+   },
+   {
+    "label": "1 regular",
+    "grams": 45.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708070,
+    "description": "Churros",
+    "share": 1.0
+   }
+  ]
+ },
+ "clam_chowder": {
+  "name": "Clam chowder",
+  "per100g": {
+   "kcal": 93.0,
+   "protein": 3.1,
+   "carbs": 9.2,
+   "fat": 4.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 255.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 255.0
+   },
+   {
+    "label": "1 individual container",
+    "grams": 440.0
+   },
+   {
+    "label": "1 can",
+    "grams": 525.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 510.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707139,
+    "description": "Soup, New England clam chowder",
+    "share": 1.0
+   }
+  ]
+ },
+ "club_sandwich": {
+  "name": "Club sandwich",
+  "per100g": {
+   "kcal": 222.0,
+   "protein": 15.1,
+   "carbs": 23.1,
+   "fat": 7.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 130.0
+   },
+   {
+    "label": "1 sandwich, any size",
+    "grams": 130.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706993,
+    "description": "Club sandwich on white",
+    "share": 1.0
+   }
+  ]
+ },
+ "crab_cakes": {
+  "name": "Crab cakes",
+  "per100g": {
+   "kcal": 214.0,
+   "protein": 14.4,
+   "carbs": 4.5,
+   "fat": 15.0
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 cake or patty",
+    "grams": 85.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706549,
+    "description": "Crab, cake",
+    "share": 1.0
+   }
+  ]
+ },
+ "creme_brulee": {
+  "name": "Crème brûlée",
+  "per100g": {
+   "kcal": 348.7,
+   "protein": 4.6,
+   "carbs": 17.6,
+   "fat": 28.9
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 120
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2705597,
+    "description": "Cream, heavy",
+    "share": 0.65
+   },
+   {
+    "fdcId": 2707172,
+    "description": "Egg, yolk only, raw",
+    "share": 0.2
+   },
+   {
+    "fdcId": 2710258,
+    "description": "Sugar, white, granulated or lump",
+    "share": 0.15
+   }
+  ]
+ },
+ "croque_madame": {
+  "name": "Croque madame",
+  "per100g": {
+   "kcal": 206.2,
+   "protein": 13.5,
+   "carbs": 17.7,
+   "fat": 9.0
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 230
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2706965,
+    "description": "Ham sandwich on white, with cheese",
+    "share": 0.78
+   },
+   {
+    "fdcId": 2707159,
+    "description": "Egg, whole, fried with butter",
+    "share": 0.22
+   }
+  ]
+ },
+ "cup_cakes": {
+  "name": "Cupcakes",
+  "per100g": {
+   "kcal": 352.0,
+   "protein": 2.8,
+   "carbs": 53.6,
+   "fat": 14.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 175.0
+   },
+   {
+    "label": "1 cupcake, any size",
+    "grams": 90.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 100.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 175.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 200.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707853,
+    "description": "Cake or cupcake, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "deviled_eggs": {
+  "name": "Deviled eggs",
+  "per100g": {
+   "kcal": 198.0,
+   "protein": 11.5,
+   "carbs": 1.1,
+   "fat": 15.9
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 30.0
+   },
+   {
+    "label": "1 egg",
+    "grams": 30.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707181,
+    "description": "Egg, deviled",
+    "share": 1.0
+   }
+  ]
+ },
+ "donuts": {
+  "name": "Doughnuts",
+  "per100g": {
+   "kcal": 426.0,
+   "protein": 5.5,
+   "carbs": 49.5,
+   "fat": 22.9
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 75.0
+   },
+   {
+    "label": "1 miniature",
+    "grams": 15.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 60.0
+   },
+   {
+    "label": "1 doughnut",
+    "grams": 75.0
+   },
+   {
+    "label": "1 stick/twist",
+    "grams": 75.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 120.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708062,
+    "description": "Doughnut, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "dumplings": {
+  "name": "Dumplings",
+  "per100g": {
+   "kcal": 113.0,
+   "protein": 6.9,
+   "carbs": 11.1,
+   "fat": 4.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 75.0
+   },
+   {
+    "label": "1 item, any size",
+    "grams": 25.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 75.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 150.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708708,
+    "description": "Wonton, dumpling or pot sticker, steamed",
+    "share": 1.0
+   }
+  ]
+ },
+ "edamame": {
+  "name": "Edamame",
+  "per100g": {
+   "kcal": 140.0,
+   "protein": 11.5,
+   "carbs": 8.6,
+   "fat": 7.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 80.0
+   },
+   {
+    "label": "1 pod, yields",
+    "grams": 2.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 160.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 320.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707436,
+    "description": "Edamame, cooked",
+    "share": 1.0
+   }
+  ]
+ },
+ "eggs_benedict": {
+  "name": "Eggs benedict",
+  "per100g": {
+   "kcal": 288.0,
+   "protein": 13.8,
+   "carbs": 8.5,
+   "fat": 22.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 155.0
+   },
+   {
+    "label": "1 egg",
+    "grams": 155.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707180,
+    "description": "Egg, Benedict",
+    "share": 1.0
+   }
+  ]
+ },
+ "escargots": {
+  "name": "Escargots",
+  "per100g": {
+   "kcal": 299.2,
+   "protein": 13.3,
+   "carbs": 3.2,
+   "fat": 25.5
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 90
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2706342,
+    "description": "Clams, steamed or boiled",
+    "share": 0.7
+   },
+   {
+    "fdcId": 2710155,
+    "description": "Butter, stick",
+    "share": 0.3
+   }
+  ]
+ },
+ "falafel": {
+  "name": "Falafel",
+  "per100g": {
+   "kcal": 514.0,
+   "protein": 8.3,
+   "carbs": 29.0,
+   "fat": 41.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 28.0
+   },
+   {
+    "label": "1 patty",
+    "grams": 17.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707408,
+    "description": "Falafel",
+    "share": 1.0
+   }
+  ]
+ },
+ "filet_mignon": {
+  "name": "Filet mignon",
+  "per100g": {
+   "kcal": 196.0,
+   "protein": 30.5,
+   "carbs": 0.0,
+   "fat": 8.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 160.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 17.0
+   },
+   {
+    "label": "1 oz yields",
+    "grams": 20.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 30.0
+   },
+   {
+    "label": "1 thin",
+    "grams": 120.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "1 regular",
+    "grams": 160.0
+   },
+   {
+    "label": "1 thick",
+    "grams": 240.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705841,
+    "description": "Beef, steak, tenderloin",
+    "share": 1.0
+   }
+  ]
+ },
+ "fish_and_chips": {
+  "name": "Fish and chips",
+  "per100g": {
+   "kcal": 221.4,
+   "protein": 7.5,
+   "carbs": 18.1,
+   "fat": 13.4
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 400
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2706244,
+    "description": "Fish, cod, fried",
+    "share": 0.45
+   },
+   {
+    "fdcId": 2709456,
+    "description": "Potato, french fries, NFS",
+    "share": 0.55
+   }
+  ]
+ },
+ "foie_gras": {
+  "name": "Foie gras",
+  "per100g": {
+   "kcal": 201.0,
+   "protein": 13.4,
+   "carbs": 6.5,
+   "fat": 13.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 210.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 420.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706155,
+    "description": "Liver, paste or pate",
+    "share": 1.0
+   }
+  ]
+ },
+ "french_fries": {
+  "name": "French fries",
+  "per100g": {
+   "kcal": 225.0,
+   "protein": 2.5,
+   "carbs": 23.2,
+   "fat": 14.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 110.0
+   },
+   {
+    "label": "1 shoestring",
+    "grams": 2.0
+   },
+   {
+    "label": "1 fry, NS as to shape",
+    "grams": 5.0
+   },
+   {
+    "label": "1 straight cut",
+    "grams": 5.0
+   },
+   {
+    "label": "1 crinkle cut",
+    "grams": 5.0
+   },
+   {
+    "label": "1 waffle",
+    "grams": 8.0
+   },
+   {
+    "label": "1 spiral or curly",
+    "grams": 8.0
+   },
+   {
+    "label": "1 wedge",
+    "grams": 9.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 60.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 120.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2709456,
+    "description": "Potato, french fries, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "french_onion_soup": {
+  "name": "French onion soup",
+  "per100g": {
+   "kcal": 108.0,
+   "protein": 5.5,
+   "carbs": 11.8,
+   "fat": 4.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 245.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 245.0
+   },
+   {
+    "label": "1 individual container",
+    "grams": 440.0
+   },
+   {
+    "label": "1 can",
+    "grams": 525.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 490.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2710108,
+    "description": "Soup, French onion",
+    "share": 1.0
+   }
+  ]
+ },
+ "french_toast": {
+  "name": "French toast",
+  "per100g": {
+   "kcal": 273.0,
+   "protein": 10.4,
+   "carbs": 32.3,
+   "fat": 11.4
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 60.0
+   },
+   {
+    "label": "1 slice, any size",
+    "grams": 65.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708331,
+    "description": "French toast, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "fried_calamari": {
+  "name": "Fried calamari",
+  "per100g": {
+   "kcal": 234.0,
+   "protein": 13.8,
+   "carbs": 14.1,
+   "fat": 13.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 item",
+    "grams": 15.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706334,
+    "description": "Calamari, fried",
+    "share": 1.0
+   }
+  ]
+ },
+ "fried_rice": {
+  "name": "Fried rice",
+  "per100g": {
+   "kcal": 174.0,
+   "protein": 3.8,
+   "carbs": 32.5,
+   "fat": 3.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 198.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 198.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 396.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708952,
+    "description": "Rice, fried, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "frozen_yogurt": {
+  "name": "Frozen yogurt",
+  "per100g": {
+   "kcal": 127.0,
+   "protein": 3.0,
+   "carbs": 21.6,
+   "fat": 3.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 175.0
+   },
+   {
+    "label": "1 scoop",
+    "grams": 160.0
+   },
+   {
+    "label": "1 small ice cream cup",
+    "grams": 160.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 175.0
+   },
+   {
+    "label": "1 medium ice cream cup",
+    "grams": 320.0
+   },
+   {
+    "label": "1 large ice cream cup",
+    "grams": 480.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 350.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705451,
+    "description": "Frozen yogurt, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "garlic_bread": {
+  "name": "Garlic bread",
+  "per100g": {
+   "kcal": 349.0,
+   "protein": 8.3,
+   "carbs": 41.6,
+   "fat": 16.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 79.0
+   },
+   {
+    "label": "1 small slice",
+    "grams": 39.0
+   },
+   {
+    "label": "1 piece/slice Texas Toast",
+    "grams": 41.0
+   },
+   {
+    "label": "1 medium slice",
+    "grams": 79.0
+   },
+   {
+    "label": "1 large slice",
+    "grams": 118.0
+   },
+   {
+    "label": "1 mini baguette (about 9\" long)",
+    "grams": 185.0
+   },
+   {
+    "label": "1 baguette (about 22\" long)",
+    "grams": 393.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707626,
+    "description": "Garlic bread, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "gnocchi": {
+  "name": "Gnocchi",
+  "per100g": {
+   "kcal": 135.0,
+   "protein": 2.4,
+   "carbs": 17.2,
+   "fat": 6.3
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 188.0
+   },
+   {
+    "label": "1 piece",
+    "grams": 26.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 188.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 376.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708722,
+    "description": "Gnocchi, potato",
+    "share": 1.0
+   }
+  ]
+ },
+ "greek_salad": {
+  "name": "Greek salad",
+  "per100g": {
+   "kcal": 93.8,
+   "protein": 2.6,
+   "carbs": 4.5,
+   "fat": 7.3
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 200
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2709830,
+    "description": "Greek Salad, no dressing",
+    "share": 0.88
+   },
+   {
+    "fdcId": 2710195,
+    "description": "Salad dressing, NFS, for salads",
+    "share": 0.12
+   }
+  ]
+ },
+ "grilled_cheese_sandwich": {
+  "name": "Grilled cheese sandwich",
+  "per100g": {
+   "kcal": 343.0,
+   "protein": 11.0,
+   "carbs": 28.1,
+   "fat": 20.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 116.0
+   },
+   {
+    "label": "1 sandwich",
+    "grams": 116.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705801,
+    "description": "Grilled cheese sandwich, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "grilled_salmon": {
+  "name": "Grilled salmon",
+  "per100g": {
+   "kcal": 259.0,
+   "protein": 25.9,
+   "carbs": 0.0,
+   "fat": 16.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 140.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 17.0
+   },
+   {
+    "label": "1 oz yields",
+    "grams": 20.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "1 small/regular fillet",
+    "grams": 140.0
+   },
+   {
+    "label": "1 large fillet",
+    "grams": 210.0
+   },
+   {
+    "label": "1 steak",
+    "grams": 210.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706287,
+    "description": "Fish, salmon, grilled",
+    "share": 1.0
+   }
+  ]
+ },
+ "guacamole": {
+  "name": "Guacamole",
+  "per100g": {
+   "kcal": 155.0,
+   "protein": 1.9,
+   "carbs": 8.4,
+   "fat": 14.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 60.0
+   },
+   {
+    "label": "1 tablespoon",
+    "grams": 15.0
+   },
+   {
+    "label": "1 individual container",
+    "grams": 70.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2709307,
+    "description": "Guacamole, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "gyoza": {
+  "name": "Gyoza",
+  "per100g": {
+   "kcal": 192.0,
+   "protein": 8.8,
+   "carbs": 14.1,
+   "fat": 11.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 75.0
+   },
+   {
+    "label": "1 item, any size",
+    "grams": 25.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 75.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 150.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708705,
+    "description": "Wonton, dumpling or pot sticker, fried",
+    "share": 1.0
+   }
+  ]
+ },
+ "hamburger": {
+  "name": "Hamburger",
+  "per100g": {
+   "kcal": 288.0,
+   "protein": 17.5,
+   "carbs": 20.7,
+   "fat": 14.4
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 145.0
+   },
+   {
+    "label": "1 hamburger",
+    "grams": 145.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706920,
+    "description": "Hamburger, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "hot_and_sour_soup": {
+  "name": "Hot and sour soup",
+  "per100g": {
+   "kcal": 39.0,
+   "protein": 2.6,
+   "carbs": 4.3,
+   "fat": 1.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 245.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 245.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 490.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707136,
+    "description": "Soup, hot and sour",
+    "share": 1.0
+   }
+  ]
+ },
+ "hot_dog": {
+  "name": "Hot dog",
+  "per100g": {
+   "kcal": 296.0,
+   "protein": 10.8,
+   "carbs": 23.7,
+   "fat": 17.4
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 102.0
+   },
+   {
+    "label": "1 sandwich",
+    "grams": 102.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707056,
+    "description": "Hot dog sandwich, NFS, on white bun",
+    "share": 1.0
+   }
+  ]
+ },
+ "huevos_rancheros": {
+  "name": "Huevos rancheros",
+  "per100g": {
+   "kcal": 121.0,
+   "protein": 6.7,
+   "carbs": 8.8,
+   "fat": 6.7
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 236.0
+   },
+   {
+    "label": "1 egg",
+    "grams": 118.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707191,
+    "description": "Huevos rancheros",
+    "share": 1.0
+   }
+  ]
+ },
+ "hummus": {
+  "name": "Hummus",
+  "per100g": {
+   "kcal": 243.0,
+   "protein": 7.3,
+   "carbs": 14.9,
+   "fat": 17.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 60.0
+   },
+   {
+    "label": "1 tablespoon",
+    "grams": 15.0
+   },
+   {
+    "label": "1 individual container",
+    "grams": 70.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707402,
+    "description": "Hummus, plain",
+    "share": 1.0
+   }
+  ]
+ },
+ "ice_cream": {
+  "name": "Ice cream",
+  "per100g": {
+   "kcal": 221.0,
+   "protein": 3.6,
+   "carbs": 26.4,
+   "fat": 11.3
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 135.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 9.2
+   },
+   {
+    "label": "1 slice",
+    "grams": 66.0
+   },
+   {
+    "label": "1 individual container",
+    "grams": 75.0
+   },
+   {
+    "label": "1 small ice cream cup",
+    "grams": 120.0
+   },
+   {
+    "label": "1 scoop",
+    "grams": 120.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "1 medium ice cream cup",
+    "grams": 240.0
+   },
+   {
+    "label": "1 large ice cream cup",
+    "grams": 360.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705629,
+    "description": "Ice cream, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "lasagna": {
+  "name": "Lasagna",
+  "per100g": {
+   "kcal": 139.0,
+   "protein": 7.5,
+   "carbs": 16.2,
+   "fat": 5.0
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 250.0
+   },
+   {
+    "label": "1 surface inch",
+    "grams": 20.7
+   },
+   {
+    "label": "1 piece (1/6 of 8\" square, approx 2-1/2\" x 4\")",
+    "grams": 206.0
+   },
+   {
+    "label": "1 piece (1/8 of 7\" x 12\", approx 3-1/2\" x 3\")",
+    "grams": 232.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 250.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 500.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708750,
+    "description": "Lasagna with meat",
+    "share": 1.0
+   }
+  ]
+ },
+ "lobster_bisque": {
+  "name": "Lobster bisque",
+  "per100g": {
+   "kcal": 75.0,
+   "protein": 2.3,
+   "carbs": 5.9,
+   "fat": 4.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 255.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 255.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 510.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707140,
+    "description": "Soup, bisque",
+    "share": 1.0
+   }
+  ]
+ },
+ "lobster_roll_sandwich": {
+  "name": "Lobster roll",
+  "per100g": {
+   "kcal": 219.0,
+   "protein": 9.9,
+   "carbs": 20.4,
+   "fat": 10.7
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 180
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2706825,
+    "description": "Lobster salad",
+    "share": 0.6
+   },
+   {
+    "fdcId": 2707656,
+    "description": "Roll, white, hot dog bun",
+    "share": 0.4
+   }
+  ]
+ },
+ "macaroni_and_cheese": {
+  "name": "Macaroni and cheese",
+  "per100g": {
+   "kcal": 223.0,
+   "protein": 8.7,
+   "carbs": 23.1,
+   "fat": 10.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 230.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 230.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 460.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708811,
+    "description": "Macaroni or noodles with cheese",
+    "share": 1.0
+   }
+  ]
+ },
+ "macarons": {
+  "name": "Macarons",
+  "per100g": {
+   "kcal": 460.0,
+   "protein": 3.0,
+   "carbs": 61.2,
+   "fat": 22.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 48.0
+   },
+   {
+    "label": "1 cookie",
+    "grams": 24.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707936,
+    "description": "Cookie, macaroon",
+    "share": 1.0
+   }
+  ]
+ },
+ "miso_soup": {
+  "name": "Miso soup",
+  "per100g": {
+   "kcal": 24.0,
+   "protein": 2.2,
+   "carbs": 2.3,
+   "fat": 0.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 245.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 245.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 490.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707455,
+    "description": "Soup, miso or tofu",
+    "share": 1.0
+   }
+  ]
+ },
+ "mussels": {
+  "name": "Mussels",
+  "per100g": {
+   "kcal": 109.0,
+   "protein": 15.1,
+   "carbs": 4.7,
+   "fat": 2.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 mussel",
+    "grams": 15.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706350,
+    "description": "Mussels",
+    "share": 1.0
+   }
+  ]
+ },
+ "nachos": {
+  "name": "Nachos",
+  "per100g": {
+   "kcal": 265.0,
+   "protein": 7.6,
+   "carbs": 23.9,
+   "fat": 15.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 125.0
+   },
+   {
+    "label": "1 chip",
+    "grams": 7.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "1 order",
+    "grams": 250.0
+   },
+   {
+    "label": "1 item, any size",
+    "grams": 250.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708576,
+    "description": "Nachos, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "omelette": {
+  "name": "Omelette",
+  "per100g": {
+   "kcal": 185.0,
+   "protein": 11.6,
+   "carbs": 0.9,
+   "fat": 15.0
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 110.0
+   },
+   {
+    "label": "1 egg",
+    "grams": 55.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707198,
+    "description": "Egg omelet or scrambled egg, NS as to fat",
+    "share": 1.0
+   }
+  ]
+ },
+ "onion_rings": {
+  "name": "Onion rings",
+  "per100g": {
+   "kcal": 352.0,
+   "protein": 4.2,
+   "carbs": 39.9,
+   "fat": 19.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 120.0
+   },
+   {
+    "label": "1 ring",
+    "grams": 10.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 50.0
+   },
+   {
+    "label": "1 fast food order",
+    "grams": 120.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 100.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2710055,
+    "description": "Fried onion rings",
+    "share": 1.0
+   }
+  ]
+ },
+ "oysters": {
+  "name": "Oysters",
+  "per100g": {
+   "kcal": 51.0,
+   "protein": 5.7,
+   "carbs": 2.7,
+   "fat": 1.7
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 oyster",
+    "grams": 15.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 225.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 450.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706351,
+    "description": "Oysters, raw",
+    "share": 1.0
+   }
+  ]
+ },
+ "pad_thai": {
+  "name": "Pad thai",
+  "per100g": {
+   "kcal": 154.0,
+   "protein": 8.1,
+   "carbs": 14.4,
+   "fat": 7.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 200.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 200.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 400.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708804,
+    "description": "Pad Thai, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "paella": {
+  "name": "Paella",
+  "per100g": {
+   "kcal": 169.0,
+   "protein": 9.5,
+   "carbs": 15.8,
+   "fat": 7.2
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 300.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 240.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 480.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706723,
+    "description": "Paella, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "pancakes": {
+  "name": "Pancakes",
+  "per100g": {
+   "kcal": 282.0,
+   "protein": 7.4,
+   "carbs": 35.3,
+   "fat": 12.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 100.0
+   },
+   {
+    "label": "1 surface inch",
+    "grams": 1.9
+   },
+   {
+    "label": "1 miniature/bite size pancake",
+    "grams": 10.0
+   },
+   {
+    "label": "1 silver dollar pancake",
+    "grams": 20.0
+   },
+   {
+    "label": "1 small pancake",
+    "grams": 20.0
+   },
+   {
+    "label": "1 medium pancake",
+    "grams": 50.0
+   },
+   {
+    "label": "1 large pancake",
+    "grams": 90.0
+   },
+   {
+    "label": "1 extra large pancake",
+    "grams": 150.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708294,
+    "description": "Pancakes, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "panna_cotta": {
+  "name": "Panna cotta",
+  "per100g": {
+   "kcal": 264.2,
+   "protein": 2.2,
+   "carbs": 13.6,
+   "fat": 22.3
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 120
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2705597,
+    "description": "Cream, heavy",
+    "share": 0.6
+   },
+   {
+    "fdcId": 2705385,
+    "description": "Milk, whole",
+    "share": 0.3
+   },
+   {
+    "fdcId": 2710258,
+    "description": "Sugar, white, granulated or lump",
+    "share": 0.1
+   }
+  ]
+ },
+ "peking_duck": {
+  "name": "Peking duck",
+  "per100g": {
+   "kcal": 154.0,
+   "protein": 5.3,
+   "carbs": 6.5,
+   "fat": 11.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 oz, cooked",
+    "grams": 28.35
+   },
+   {
+    "label": "1 cup, diced, cooked",
+    "grams": 140.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706141,
+    "description": "Duck, Peking",
+    "share": 1.0
+   }
+  ]
+ },
+ "pho": {
+  "name": "Phở",
+  "per100g": {
+   "kcal": 77.0,
+   "protein": 5.8,
+   "carbs": 5.6,
+   "fat": 3.3
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 245.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 245.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 490.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707124,
+    "description": "Soup, pho, with meat",
+    "share": 1.0
+   }
+  ]
+ },
+ "pizza": {
+  "name": "Pizza",
+  "per100g": {
+   "kcal": 266.0,
+   "protein": 11.4,
+   "carbs": 33.3,
+   "fat": 9.7
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 238.0
+   },
+   {
+    "label": "1 surface inch",
+    "grams": 6.2
+   },
+   {
+    "label": "1 piece, small pizza",
+    "grams": 80.0
+   },
+   {
+    "label": "1 piece, medium pizza",
+    "grams": 86.0
+   },
+   {
+    "label": "1 piece, large pizza",
+    "grams": 119.0
+   },
+   {
+    "label": "1 piece, NFS",
+    "grams": 119.0
+   },
+   {
+    "label": "1 piece, extra-large pizza",
+    "grams": 128.0
+   },
+   {
+    "label": "1 personal size pizza (5-7\" diameter)",
+    "grams": 175.0
+   },
+   {
+    "label": "1 small pizza (8-10\" diameter)",
+    "grams": 480.0
+   },
+   {
+    "label": "1 medium pizza (11-12\" diameter)",
+    "grams": 691.0
+   },
+   {
+    "label": "1 large pizza (13-15\" diameter)",
+    "grams": 954.0
+   },
+   {
+    "label": "1 extra-large pizza (16-18\" diameter)",
+    "grams": 1278.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708616,
+    "description": "Pizza, cheese, from restaurant or fast food, medium crust",
+    "share": 1.0
+   }
+  ]
+ },
+ "pork_chop": {
+  "name": "Pork chop",
+  "per100g": {
+   "kcal": 183.0,
+   "protein": 27.5,
+   "carbs": 0.0,
+   "fat": 7.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 120.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 17.0
+   },
+   {
+    "label": "1 oz yields",
+    "grams": 20.0
+   },
+   {
+    "label": "1 slice, any size",
+    "grams": 30.0
+   },
+   {
+    "label": "1 thin",
+    "grams": 90.0
+   },
+   {
+    "label": "1 regular",
+    "grams": 120.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "1 thick",
+    "grams": 180.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705866,
+    "description": "Pork, chop, NS as to fat eaten",
+    "share": 1.0
+   }
+  ]
+ },
+ "poutine": {
+  "name": "Poutine",
+  "per100g": {
+   "kcal": 221.8,
+   "protein": 6.4,
+   "carbs": 15.8,
+   "fat": 15.2
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 300
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2709456,
+    "description": "Potato, french fries, NFS",
+    "share": 0.6
+   },
+   {
+    "fdcId": 2705704,
+    "description": "Cheese, NFS",
+    "share": 0.2
+   },
+   {
+    "fdcId": 2707145,
+    "description": "Gravy, beef",
+    "share": 0.2
+   }
+  ]
+ },
+ "prime_rib": {
+  "name": "Prime rib",
+  "per100g": {
+   "kcal": 289.0,
+   "protein": 23.5,
+   "carbs": 0.0,
+   "fat": 21.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 240.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 17.0
+   },
+   {
+    "label": "1 oz yields",
+    "grams": 20.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 30.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "1 thin",
+    "grams": 180.0
+   },
+   {
+    "label": "1 regular",
+    "grams": 240.0
+   },
+   {
+    "label": "1 thick",
+    "grams": 360.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705829,
+    "description": "Beef, steak, ribeye, lean and fat eaten",
+    "share": 1.0
+   }
+  ]
+ },
+ "pulled_pork_sandwich": {
+  "name": "Pulled pork sandwich",
+  "per100g": {
+   "kcal": 243.0,
+   "protein": 15.0,
+   "carbs": 24.9,
+   "fat": 8.8
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 180.0
+   },
+   {
+    "label": "1 miniature/slider",
+    "grams": 90.0
+   },
+   {
+    "label": "1 regular sandwich",
+    "grams": 180.0
+   },
+   {
+    "label": "1 submarine",
+    "grams": 270.0
+   },
+   {
+    "label": "1 large sandwich",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706975,
+    "description": "Barbecue pork sandwich, on white bun",
+    "share": 1.0
+   }
+  ]
+ },
+ "ramen": {
+  "name": "Ramen",
+  "per100g": {
+   "kcal": 127.0,
+   "protein": 7.1,
+   "carbs": 13.9,
+   "fat": 4.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 245.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 245.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 490.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2709153,
+    "description": "Ramen bowl, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "ravioli": {
+  "name": "Ravioli",
+  "per100g": {
+   "kcal": 98.0,
+   "protein": 4.0,
+   "carbs": 15.2,
+   "fat": 2.3
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 250.0
+   },
+   {
+    "label": "1 piece",
+    "grams": 38.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 250.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 500.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708768,
+    "description": "Ravioli, cheese-filled, with tomato sauce",
+    "share": 1.0
+   }
+  ]
+ },
+ "red_velvet_cake": {
+  "name": "Red velvet cake",
+  "per100g": {
+   "kcal": 355.0,
+   "protein": 2.8,
+   "carbs": 54.4,
+   "fat": 14.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 200.0
+   },
+   {
+    "label": "1 cupcake, any size",
+    "grams": 90.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 120.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 200.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 240.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707884,
+    "description": "Cake or cupcake, red velvet",
+    "share": 1.0
+   }
+  ]
+ },
+ "risotto": {
+  "name": "Risotto",
+  "per100g": {
+   "kcal": 213.3,
+   "protein": 4.7,
+   "carbs": 23.8,
+   "fat": 10.7
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 250
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2708404,
+    "description": "Rice, white, cooked, made with oil",
+    "share": 0.85
+   },
+   {
+    "fdcId": 2705730,
+    "description": "Cheese, Parmesan, hard",
+    "share": 0.08
+   },
+   {
+    "fdcId": 2710155,
+    "description": "Butter, stick",
+    "share": 0.07
+   }
+  ]
+ },
+ "samosa": {
+  "name": "Samosa",
+  "per100g": {
+   "kcal": 310.0,
+   "protein": 5.1,
+   "carbs": 33.2,
+   "fat": 17.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 75.0
+   },
+   {
+    "label": "1 small/individual",
+    "grams": 25.0
+   },
+   {
+    "label": "1 regular/large",
+    "grams": 100.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708730,
+    "description": "Samosa",
+    "share": 1.0
+   }
+  ]
+ },
+ "sashimi": {
+  "name": "Sashimi",
+  "per100g": {
+   "kcal": 109.0,
+   "protein": 24.4,
+   "carbs": 0.0,
+   "fat": 0.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706308,
+    "description": "Fish, tuna, raw",
+    "share": 1.0
+   }
+  ]
+ },
+ "scallops": {
+  "name": "Scallops",
+  "per100g": {
+   "kcal": 126.0,
+   "protein": 15.0,
+   "carbs": 4.0,
+   "fat": 5.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 85.0
+   },
+   {
+    "label": "1 scallop",
+    "grams": 15.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2706356,
+    "description": "Scallops, baked or broiled",
+    "share": 1.0
+   }
+  ]
+ },
+ "seaweed_salad": {
+  "name": "Seaweed salad",
+  "per100g": {
+   "kcal": 89.1,
+   "protein": 3.2,
+   "carbs": 11.3,
+   "fat": 4.5
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 100
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2709805,
+    "description": "Seaweed, raw",
+    "share": 0.92
+   },
+   {
+    "fdcId": 2710190,
+    "description": "Sesame oil",
+    "share": 0.04
+   },
+   {
+    "fdcId": 2710258,
+    "description": "Sugar, white, granulated or lump",
+    "share": 0.04
+   }
+  ]
+ },
+ "shrimp_and_grits": {
+  "name": "Shrimp and grits",
+  "per100g": {
+   "kcal": 100.8,
+   "protein": 9.0,
+   "carbs": 7.3,
+   "fat": 3.7
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 350
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2708369,
+    "description": "Grits, with cheese, fat added",
+    "share": 0.6
+   },
+   {
+    "fdcId": 2706363,
+    "description": "Shrimp, steamed or boiled",
+    "share": 0.4
+   }
+  ]
+ },
+ "spaghetti_bolognese": {
+  "name": "Spaghetti bolognese",
+  "per100g": {
+   "kcal": 126.9,
+   "protein": 5.8,
+   "carbs": 19.8,
+   "fat": 2.5
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 400
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2708357,
+    "description": "Pasta, cooked",
+    "share": 0.55
+   },
+   {
+    "fdcId": 2706470,
+    "description": "Spaghetti sauce with meat",
+    "share": 0.45
+   }
+  ]
+ },
+ "spaghetti_carbonara": {
+  "name": "Spaghetti carbonara",
+  "per100g": {
+   "kcal": 213.0,
+   "protein": 5.7,
+   "carbs": 15.4,
+   "fat": 14.1
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 250.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 250.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 500.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708861,
+    "description": "Pasta with cream sauce and meat, restaurant",
+    "share": 1.0
+   }
+  ]
+ },
+ "spring_rolls": {
+  "name": "Spring rolls",
+  "per100g": {
+   "kcal": 272.0,
+   "protein": 7.6,
+   "carbs": 27.0,
+   "fat": 14.7
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 100.0
+   },
+   {
+    "label": "1 miniature roll",
+    "grams": 13.0
+   },
+   {
+    "label": "1 egg roll",
+    "grams": 64.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 125.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 250.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708702,
+    "description": "Egg roll, with beef and/or pork",
+    "share": 1.0
+   }
+  ]
+ },
+ "steak": {
+  "name": "Steak",
+  "per100g": {
+   "kcal": 229.0,
+   "protein": 27.0,
+   "carbs": 0.0,
+   "fat": 12.9
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 160.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 17.0
+   },
+   {
+    "label": "1 oz yields",
+    "grams": 20.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 30.0
+   },
+   {
+    "label": "1 thin",
+    "grams": 120.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 135.0
+   },
+   {
+    "label": "1 regular",
+    "grams": 160.0
+   },
+   {
+    "label": "1 thick",
+    "grams": 240.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 270.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705824,
+    "description": "Beef, steak, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "strawberry_shortcake": {
+  "name": "Strawberry shortcake",
+  "per100g": {
+   "kcal": 214.0,
+   "protein": 3.3,
+   "carbs": 40.1,
+   "fat": 4.7
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 175.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 150.0
+   },
+   {
+    "label": "1 piece/slice, any size",
+    "grams": 175.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 300.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2707896,
+    "description": "Cake, strawberry shortcake",
+    "share": 1.0
+   }
+  ]
+ },
+ "sushi": {
+  "name": "Sushi",
+  "per100g": {
+   "kcal": 94.0,
+   "protein": 2.9,
+   "carbs": 18.4,
+   "fat": 0.7
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 180.0
+   },
+   {
+    "label": "1 piece",
+    "grams": 30.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 150.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 300.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708959,
+    "description": "Sushi, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "tacos": {
+  "name": "Tacos",
+  "per100g": {
+   "kcal": 246.0,
+   "protein": 15.3,
+   "carbs": 15.6,
+   "fat": 13.6
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 105.0
+   },
+   {
+    "label": "1 miniature",
+    "grams": 50.0
+   },
+   {
+    "label": "1 small/regular",
+    "grams": 105.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 120.0
+   },
+   {
+    "label": "1 large",
+    "grams": 160.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 240.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708514,
+    "description": "Taco, NFS",
+    "share": 1.0
+   }
+  ]
+ },
+ "takoyaki": {
+  "name": "Takoyaki",
+  "per100g": {
+   "kcal": 268.0,
+   "protein": 8.9,
+   "carbs": 29.8,
+   "fat": 12.3
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 120
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2708304,
+    "description": "Pancakes, plain",
+    "share": 0.75
+   },
+   {
+    "fdcId": 2706331,
+    "description": "Octopus",
+    "share": 0.25
+   }
+  ]
+ },
+ "tiramisu": {
+  "name": "Tiramisu",
+  "per100g": {
+   "kcal": 353.0,
+   "protein": 5.7,
+   "carbs": 29.4,
+   "fat": 23.9
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 175.0
+   },
+   {
+    "label": "1 cubic inch",
+    "grams": 10.0
+   },
+   {
+    "label": "1 cup",
+    "grams": 145.0
+   },
+   {
+    "label": "1 piece",
+    "grams": 175.0
+   },
+   {
+    "label": "2 cups",
+    "grams": 290.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2705702,
+    "description": "Tiramisu",
+    "share": 1.0
+   }
+  ]
+ },
+ "tuna_tartare": {
+  "name": "Tuna tartare",
+  "per100g": {
+   "kcal": 152.8,
+   "protein": 20.9,
+   "carbs": 0.9,
+   "fat": 6.9
+  },
+  "portions": [
+   {
+    "label": "Estimated serving",
+    "grams": 140
+   }
+  ],
+  "approximate": true,
+  "source": [
+   {
+    "fdcId": 2706308,
+    "description": "Fish, tuna, raw",
+    "share": 0.85
+   },
+   {
+    "fdcId": 2709223,
+    "description": "Avocado, raw",
+    "share": 0.1
+   },
+   {
+    "fdcId": 2710190,
+    "description": "Sesame oil",
+    "share": 0.05
+   }
+  ]
+ },
+ "waffles": {
+  "name": "Waffles",
+  "per100g": {
+   "kcal": 309.0,
+   "protein": 7.4,
+   "carbs": 48.4,
+   "fat": 9.5
+  },
+  "portions": [
+   {
+    "label": "USDA typical serving",
+    "grams": 75.0
+   },
+   {
+    "label": "1 surface inch",
+    "grams": 2.5
+   },
+   {
+    "label": "1 surface inch, Belgian waffle",
+    "grams": 3.7
+   },
+   {
+    "label": "1 miniature/bite size waffle",
+    "grams": 10.0
+   },
+   {
+    "label": "1 small waffle",
+    "grams": 40.0
+   },
+   {
+    "label": "1 medium waffle",
+    "grams": 75.0
+   },
+   {
+    "label": "1 large waffle",
+    "grams": 125.0
+   },
+   {
+    "label": "1 thick / Belgian waffle",
+    "grams": 135.0
+   }
+  ],
+  "approximate": false,
+  "source": [
+   {
+    "fdcId": 2708312,
+    "description": "Waffle, NFS",
+    "share": 1.0
+   }
+  ]
+ }
+}
