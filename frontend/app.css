@@ -1,0 +1,266 @@
+:root {
+    --field: #2f5d3a;      /* kale: the page around the label */
+    --field-ink: #f3f7f1;
+    --label: #ffffff;      /* the label itself */
+    --ink: #000000;
+    --muted: #4a4a4a;
+    --yolk: #f2c14e;       /* confidence and progress */
+    --over: #c2412d;       /* over the daily target */
+    --bar: 10px;
+    font-family: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+    font-size: 17px;
+    line-height: 1.45;
+}
+
+@media (prefers-color-scheme: dark) {
+    :root {
+        /* the label stays a printed white label; only the room around it gets darker */
+        --field: #16281b;
+        --field-ink: #dfe9dc;
+    }
+}
+
+* { box-sizing: border-box; }
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: var(--field);
+    color: var(--field-ink);
+}
+
+a { color: inherit; }
+:focus-visible { outline: 3px solid var(--yolk); outline-offset: 2px; }
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 20px 16px;
+}
+.wordmark {
+    font-weight: 900;
+    font-stretch: 112%;
+    font-size: 1.35rem;
+    letter-spacing: -0.02em;
+    text-decoration: none;
+}
+.top nav { display: flex; gap: 20px; align-items: center; }
+.top nav a, .linkish {
+    font: inherit;
+    font-weight: 600;
+    color: inherit;
+    background: none;
+    border: 0;
+    padding: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+/* ---------- the Nutrition Facts label ---------- */
+
+.label {
+    background: var(--label);
+    color: var(--ink);
+    border: 1px solid var(--ink);
+    padding: 6px 10px 10px;
+    font-stretch: 100%;
+}
+.label h2, .label .title {
+    margin: 0;
+    font-size: 2.6rem;
+    line-height: 1;
+    font-weight: 900;
+    font-stretch: 75%;
+    letter-spacing: -0.01em;
+}
+.label .rule { border-top: var(--bar) solid var(--ink); margin: 4px 0; }
+.label .rule.mid { border-top-width: 5px; }
+.label .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    gap: 12px;
+    border-top: 1px solid var(--ink);
+    padding: 3px 0;
+}
+.label .row:first-child { border-top: 0; }
+.label .row b { font-weight: 800; }
+.label .serving { font-weight: 800; font-size: 1.1rem; }
+.label .calories {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-weight: 900;
+    font-stretch: 75%;
+}
+.label .calories span:first-child { font-size: 1.9rem; line-height: 1; }
+.label .calories .big { font-size: 3.2rem; line-height: 0.9; }
+.label .fine { font-size: 0.8rem; color: var(--muted); margin: 6px 0 0; }
+
+/* ---------- landing ---------- */
+
+.hero {
+    display: grid;
+    grid-template-columns: minmax(0, 1.1fr) minmax(0, 0.9fr);
+    gap: 56px;
+    align-items: center;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 40px 16px 72px;
+}
+.hero h1 {
+    margin: 0 0 20px;
+    font-size: clamp(2.6rem, 6vw, 4.6rem);
+    line-height: 0.95;
+    font-weight: 900;
+    font-stretch: 62%;
+    letter-spacing: -0.01em;
+}
+.hero p { max-width: 34em; margin: 0 0 16px; }
+.hero .label { max-width: 340px; justify-self: center; transform: rotate(1.5deg); }
+.cta {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 14px 22px;
+    background: var(--yolk);
+    color: #000;
+    font-weight: 800;
+    text-decoration: none;
+    border: 2px solid #000;
+}
+.how {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 16px 72px;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 32px;
+}
+.how h3 { margin: 0 0 6px; font-weight: 800; font-size: 1.05rem; }
+.how p { margin: 0; color: var(--field-ink); opacity: 0.85; }
+
+/* ---------- sign in ---------- */
+
+.auth { max-width: 380px; margin: 24px auto 64px; padding: 0 16px; }
+.auth form { display: grid; gap: 4px; }
+.field { display: grid; gap: 4px; padding: 6px 0; }
+.field span { font-weight: 800; }
+input, select {
+    font: inherit;
+    color: var(--ink);
+    background: var(--label);
+    border: 1px solid var(--ink);
+    padding: 9px 10px;
+    width: 100%;
+    border-radius: 0;
+}
+.go {
+    font: inherit;
+    font-weight: 800;
+    padding: 12px 18px;
+    margin-top: 10px;
+    background: var(--ink);
+    color: var(--label);
+    border: 0;
+    cursor: pointer;
+}
+.go:disabled { opacity: 0.5; cursor: progress; }
+.error { color: var(--over); font-weight: 700; min-height: 1.45em; margin: 6px 0 0; }
+.swap { margin: 14px 0 0; text-align: center; }
+
+/* ---------- the tracker ---------- */
+
+.desk {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 32px;
+    align-items: start;
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 16px 64px;
+}
+.panel h2 { font-size: 2.1rem; }
+
+.drop {
+    display: grid;
+    place-items: center;
+    gap: 6px;
+    min-height: 200px;
+    margin: 8px 0;
+    border: 2px dashed var(--ink);
+    text-align: center;
+    cursor: pointer;
+    padding: 16px;
+    background-size: cover;
+    background-position: center;
+}
+.drop.has-photo { border-style: solid; color: #fff; text-shadow: 0 1px 3px #000; min-height: 240px; }
+.drop.dragging { background-color: color-mix(in srgb, var(--yolk) 30%, var(--label)); }
+.drop strong { font-size: 1.15rem; }
+.drop input { position: absolute; width: 1px; height: 1px; opacity: 0; }
+
+.guesses { list-style: none; margin: 0; padding: 0; }
+.guess label {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    gap: 10px;
+    align-items: center;
+    border-top: 1px solid var(--ink);
+    padding: 6px 0;
+    cursor: pointer;
+}
+.guess input { width: auto; accent-color: var(--ink); }
+.guess .meter { grid-column: 2 / 4; height: 6px; background: color-mix(in srgb, var(--ink) 12%, transparent); }
+.guess .meter i { display: block; height: 100%; background: var(--yolk); }
+.guess:first-child label { border-top: 0; }
+.note { font-weight: 700; margin: 6px 0; }
+
+.portion { display: grid; grid-template-columns: minmax(0, 1.4fr) minmax(0, 0.6fr); gap: 10px; }
+
+.diary .total-of { font-size: 1rem; font-weight: 700; font-stretch: 100%; }
+.progress { height: 12px; border: 1px solid var(--ink); margin: 6px 0 2px; }
+.progress i { display: block; height: 100%; background: var(--yolk); max-width: 100%; }
+.progress.over i { background: var(--over); }
+.meal .what { min-width: 0; }
+.meal .what small { display: block; color: var(--muted); }
+.meal button {
+    font: inherit;
+    font-size: 0.85rem;
+    background: none;
+    color: var(--muted);
+    border: 0;
+    cursor: pointer;
+    text-decoration: underline;
+    padding: 0 0 0 8px;
+}
+.daybar { display: flex; align-items: center; gap: 12px; margin: 0 0 12px; }
+.daybar button {
+    font: inherit;
+    font-weight: 800;
+    background: none;
+    color: var(--field-ink);
+    border: 1px solid currentColor;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+}
+.daybar h1 { margin: 0; font-size: 1.4rem; font-weight: 800; flex: 1; }
+.target { display: flex; gap: 8px; align-items: center; margin-top: 10px; font-size: 0.9rem; }
+.target input { width: 90px; padding: 4px 6px; }
+
+[hidden] { display: none !important; }
+
+@media (max-width: 760px) {
+    .hero, .desk, .how { grid-template-columns: minmax(0, 1fr); }
+    .hero { gap: 40px; padding-top: 16px; }
+    .hero .label { transform: none; width: 100%; }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .progress i { transition: width 300ms ease-out; }
+}
