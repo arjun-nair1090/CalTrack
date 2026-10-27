@@ -2,7 +2,8 @@
 
 Every Food-101 class maps to one FNDDS food, or to a weighted mix of FNDDS foods when USDA
 has no entry for the dish itself (those are flagged approximate in the app). Values are per
-100 g; portions come from FNDDS, and "Quantity not specified" is USDA's typical serving.
+100 g; portions come from FNDDS, where "Quantity not specified" is the weight used when a survey
+respondent gave no amount. We call it the USDA typical serving.
 
     python scripts/build_nutrition.py path/to/FoodData_Central_survey_food_csv_2024-10-31
 Download: https://fdc.nal.usda.gov/download-datasets (Survey FNDDS, CSV). Stdlib only.
@@ -86,7 +87,7 @@ def main(d):
     for r in read(d, "food_portion.csv"):
         g = float(r["gram_weight"] or 0)
         if g > 0:
-            label = "Typical serving" if r["portion_description"] == "Quantity not specified" else r["portion_description"]
+            label = "USDA typical serving" if r["portion_description"] == "Quantity not specified" else r["portion_description"]
             portions.setdefault(r["fdc_id"], []).append({"label": label, "grams": g})
 
     out = {}
@@ -98,9 +99,13 @@ def main(d):
         assert abs(sum(w for _, w in parts) - 1) < 1e-9, cls
         values = {k: round(sum(per100[f][k] * w for f, w in parts), 1) for k in NUTRIENTS.values()}
         if approx:
-            options = [{"label": "Typical serving", "grams": serving}]
+            options = [{"label": "Estimated serving", "grams": serving}]  # our estimate, not USDA's
         else:
-            options = sorted(portions[parts[0][0]], key=lambda p: (p["label"] != "Typical serving", p["grams"]))
+            options = sorted(portions[parts[0][0]], key=lambda p: (p["label"] != "USDA typical serving", p["grams"]))
+            # USDA's typical soup or noodle serving is one cup, half a restaurant bowl.
+            cup = next((p["grams"] for p in options if p["label"] == "1 cup"), None)
+            if cup:
+                options.append({"label": "2 cups", "grams": 2 * cup})
         out[cls] = {
             "name": NAMES.get(cls, cls.replace("_", " ").capitalize()),
             "per100g": values,
