@@ -68,6 +68,7 @@ async function analyze(file) {
     const drop = $('drop');
     drop.style.backgroundImage = `url(${URL.createObjectURL(file)})`;
     drop.classList.add('has-photo');
+    drop.querySelector('strong').textContent = 'Change photo';
     $('status').textContent = 'Looking at your photo…';
     $('guesses').replaceChildren();
 
